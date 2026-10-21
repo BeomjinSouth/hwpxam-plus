@@ -30,7 +30,7 @@ function Read-InstallerOutput([string]$Text, [int]$Code) {
     $trailer = $Text.Substring($last + 1)
     if ($Code -eq 0) {
         Assert ($trailer.Trim() -ceq $manifest.closing_line) 'success trailer'
-        Assert ($trailer.Trim().Contains([string][char]0x2B50)) 'trailer star'
+        Assert ($trailer.Trim().Contains('https://github.com/BeomjinSouth/')) 'trailer repository link'
     } else {
         Assert ($trailer.Trim() -ceq '') 'empty failure/preserved trailer'
     }
@@ -220,7 +220,7 @@ try {
         $text = [Text.UTF8Encoding]::new($false, $true).GetString($bytes)
         $r = Read-InstallerOutput $text $code
         Assert-Success $r 2
-        Assert ($r.data.closing_line.Contains([string][char]0x2B50)) 'closing_line star'
+        Assert ($r.data.closing_line -ceq $manifest.closing_line) 'closing_line exact'
         Assert (@($r.data.results | Where-Object status -ne 'INSTALLED').Count -eq 0) 'INSTALLED'
     }
 } finally { $env:CLAUDE_CONFIG_DIR = $savedClaude }

@@ -5,11 +5,15 @@
     "teacher-exam-hwpx",
     "textbook-digest"
   ],
-  "closing_line": "⭐ 이 스킬이 도움이 됐다면 GitHub에서 스타 하나 부탁드려요 → https://github.com/BeomjinSouth/hwpxam-plus",
+  "closing_line": "이 스킬이 도움이 됐다면 GitHub에서 스타 하나 부탁드려요 → https://github.com/BeomjinSouth/hwpxam-plus",
   "files": [
     {
+      "path": "CLAUDE.md",
+      "sha256": "2ac2db6f54c1da6fe0201ef3dd863f2746f71b96a7b1d6e0fdd55011852e0141"
+    },
+    {
       "path": "INSTALL.md",
-      "sha256": "9049c40551d9f06bc8b660ef26de4268d140991d97e1a0a34169cfb4e0727028"
+      "sha256": "141c2a48fb8ee0f24456be07ef3edb250fb38b0e1564b20e6223bc898f2f90cd"
     },
     {
       "path": "README.md",
