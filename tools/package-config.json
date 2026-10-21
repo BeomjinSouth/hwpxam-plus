@@ -1,0 +1,8 @@
+{
+  "package": "hwpxam-plus",
+  "version": "3.0.0",
+  "skills": ["teacher-exam-hwpx", "textbook-digest"],
+  "root_files": ["INSTALL.md", "README.md", "install.ps1"],
+  "closing_line": "⭐ 이 스킬이 도움이 됐다면 GitHub에서 스타 하나 부탁드려요 → https://github.com/BeomjinSouth/hwpxam-plus",
+  "zip_name": "전교과-시험지-스킬-hwpxam-plus.zip"
+}

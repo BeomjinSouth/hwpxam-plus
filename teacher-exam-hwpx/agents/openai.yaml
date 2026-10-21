@@ -1,0 +1,4 @@
+interface:
+  display_name: "전교과 시험지 제작"
+  short_description: "제공한 한글 양식을 보존하며 문항 설계부터 정답·채점기준까지 검토합니다"
+  default_prompt: "$teacher-exam-hwpx를 사용해 첨부한 평가 자료와 한글 양식으로 시험지를 만들어 주세요."

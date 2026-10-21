@@ -1,0 +1,127 @@
+{
+  "package": "hwpxam-plus",
+  "version": "3.0.0",
+  "skills": [
+    "teacher-exam-hwpx",
+    "textbook-digest"
+  ],
+  "closing_line": "⭐ 이 스킬이 도움이 됐다면 GitHub에서 스타 하나 부탁드려요 → https://github.com/BeomjinSouth/hwpxam-plus",
+  "files": [
+    {
+      "path": "INSTALL.md",
+      "sha256": "9049c40551d9f06bc8b660ef26de4268d140991d97e1a0a34169cfb4e0727028"
+    },
+    {
+      "path": "README.md",
+      "sha256": "a02a63b0e671597947f4ed4246e9de9ec8adf61edde2837893e68153fa56a445"
+    },
+    {
+      "path": "install.ps1",
+      "sha256": "625a8e4cb6cb2dcc0159e9d961205ca85eeb3382cf9967d31e291795639041fb"
+    },
+    {
+      "path": "teacher-exam-hwpx/SKILL.md",
+      "sha256": "cdea75101028176f3c592c770b03de92700f1c401b88fabf1399de7bc5f4f65d"
+    },
+    {
+      "path": "teacher-exam-hwpx/agents/openai.yaml",
+      "sha256": "265f895333ec417609d6f2ff20c25afa1606ea9514955fddb4014864269422f6"
+    },
+    {
+      "path": "teacher-exam-hwpx/assets/condition-box.xml",
+      "sha256": "2f76026393f5e711fa30dc59a69ae64ec5c9a8b00f1c53ec6e7ba0f728a28e00"
+    },
+    {
+      "path": "teacher-exam-hwpx/references/검수와-전달.md",
+      "sha256": "728166fbb41eb9d0f1acd709e1ba6313beb9c868f88c1e626679ed46c0e7462f"
+    },
+    {
+      "path": "teacher-exam-hwpx/references/교과서-정리본-활용.md",
+      "sha256": "b0aa394ae2dff7fb778d2fde2e957bc17dfc021d2934aea11ba976c804f466b6"
+    },
+    {
+      "path": "teacher-exam-hwpx/references/문항-설계와-검토.md",
+      "sha256": "7c545007b9cac0d4e4f2220e85c0d660aa918a2bff03988ca7bbee93c3ac642a"
+    },
+    {
+      "path": "teacher-exam-hwpx/references/수식-코드와-PDF그림.md",
+      "sha256": "15d9eff3fcd01c545912e538c74ced6b88e2d6b0bd124777bf9bebecc5f7b56d"
+    },
+    {
+      "path": "teacher-exam-hwpx/references/양식-보존과-실행.md",
+      "sha256": "fc1d4061d34074240c660a4c949ff1e606e113b2b0af27072684e876e39ebcea"
+    },
+    {
+      "path": "teacher-exam-hwpx/references/원고-형식.md",
+      "sha256": "eed3ee58462faf2303df2d7a0a49173a8b8c81375dcb6b1fe6600a8018b88f05"
+    },
+    {
+      "path": "teacher-exam-hwpx/references/처음부터-끝까지-실행.md",
+      "sha256": "2a27881b9a3da18fff701f6fbfe5c525ef1cbb537424418cb27db46c8f5649b2"
+    },
+    {
+      "path": "teacher-exam-hwpx/references/해설-조건상자와-코드.md",
+      "sha256": "c49c0d1d269da4d4ae1f4527f51a7e64a4f62fee42b3ca7d6601b16a9f7c3986"
+    },
+    {
+      "path": "teacher-exam-hwpx/scripts/exam_check.py",
+      "sha256": "3afd9c720c2bcb648ec5f7c8170cbdcc0bc43d5bf76bcf9b1cfa80a31ef9ae1d"
+    },
+    {
+      "path": "teacher-exam-hwpx/scripts/exam_pipeline.py",
+      "sha256": "941555e9fe1f26568b455363f74c3ff0ff2cd5a5632128979992d0be39c85e59"
+    },
+    {
+      "path": "teacher-exam-hwpx/scripts/hancom_fill.ps1",
+      "sha256": "7bdd80584ea6eeda7e3b112d308e3010ca8c5948b83bca9c031883e2184772ce"
+    },
+    {
+      "path": "teacher-exam-hwpx/scripts/pdf_crop.ps1",
+      "sha256": "3c605c590d8ed23cff58425b87be14966c3effab649f58b1b1058658981d5d23"
+    },
+    {
+      "path": "teacher-exam-hwpx/scripts/school_profile.py",
+      "sha256": "cd1ef7a31136414ef06c1ad77c3a9435d23a0b79ba052d7a903d6ab8c08dc0ae"
+    },
+    {
+      "path": "teacher-exam-hwpx/scripts/textbook_lookup.py",
+      "sha256": "77c12b00458b129d3455d983e3b5bc116f6d10776e01f039d6c43f0f607afa05"
+    },
+    {
+      "path": "teacher-exam-hwpx/scripts/wrap_boxes.py",
+      "sha256": "b14cfb4b939026bb96011ea43eb923ac75fcc3650a7bb5439dfaa7e6b3c36297"
+    },
+    {
+      "path": "textbook-digest/SKILL.md",
+      "sha256": "272145c1c651ba27d56a11788b4877cf3c672007c297e1fadc889eeb69a406f5"
+    },
+    {
+      "path": "textbook-digest/agents/openai.yaml",
+      "sha256": "1ee14de595bf2329c171692411f388f4ffaac277df86eeae090afdcd95feda91"
+    },
+    {
+      "path": "textbook-digest/references/정리본-형식.md",
+      "sha256": "8faa9f5033bff63a1654b4b0dfefed44ee734eb81ec8a0977ebc633ec049ffb4"
+    },
+    {
+      "path": "textbook-digest/scripts/ADOBE-CMAP-LICENSE.md",
+      "sha256": "742665db9c8e1bc72603c6d319ca3e90b83bd6d95202f0cd4ef11068a07a9c29"
+    },
+    {
+      "path": "textbook-digest/scripts/adobe_korea1_unicode.json",
+      "sha256": "107b1359a6e4091b9ffea9af911778d85abd562141e558bce99ab8d6f26b2477"
+    },
+    {
+      "path": "textbook-digest/scripts/pdf_crop.ps1",
+      "sha256": "3c605c590d8ed23cff58425b87be14966c3effab649f58b1b1058658981d5d23"
+    },
+    {
+      "path": "textbook-digest/scripts/pdf_text.py",
+      "sha256": "15079f56f2f54785625360ba803e20eed09216d283fd209a15eb4c5e4bc53edd"
+    },
+    {
+      "path": "textbook-digest/scripts/textbook_tool.py",
+      "sha256": "2a795dc7ea1444eac6a902ea9213318c1e2020bc568054ce463b93bf4d1b6d07"
+    }
+  ]
+}

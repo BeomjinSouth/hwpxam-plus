@@ -1,0 +1,4 @@
+interface:
+  display_name: "교과서 정리"
+  short_description: "교과서 PDF를 대단원별로 정리하고 정의·정리 문장·지문을 원문 그대로 검증해 저장합니다"
+  default_prompt: "$textbook-digest를 사용해 첨부한 교과서 PDF를 대단원별로 정리해 주세요."
