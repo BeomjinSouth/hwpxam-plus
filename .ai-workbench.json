@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "base_branch": "main",
+  "checks": [["python", "-B", "tools/build_package.py", "check"]],
+  "shared_resources": []
+}
