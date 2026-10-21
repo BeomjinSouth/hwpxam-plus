@@ -178,7 +178,7 @@ try {
             }
         }
         ConvertTo-Json -InputObject ([ordered]@{ package = $manifest.package; version = $manifest.version; results = @($results); closing_line = $manifest.closing_line }) -Depth 5
-        if ($exitCode -eq 0) { Write-Output $manifest.closing_line }
+        Write-Output $manifest.closing_line
     } catch {
         ConvertTo-Json -InputObject @{ status = 'FAIL'; error = $_.Exception.Message } -Depth 5
         $exitCode = 1

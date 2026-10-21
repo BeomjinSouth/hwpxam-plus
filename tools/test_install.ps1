@@ -28,11 +28,11 @@ function Read-InstallerOutput([string]$Text, [int]$Code) {
     Assert ($first -ge 0 -and $last -ge $first) 'JSON output'
     $json = $Text.Substring($first, $last - $first + 1)
     $trailer = $Text.Substring($last + 1)
-    if ($Code -eq 0) {
-        Assert ($trailer.Trim() -ceq $manifest.closing_line) 'success trailer'
+    if ($Code -in @(0, 3)) {
+        Assert ($trailer.Trim() -ceq $manifest.closing_line) 'success/preserved trailer'
         Assert ($trailer.Trim().Contains('https://github.com/BeomjinSouth/')) 'trailer repository link'
     } else {
-        Assert ($trailer.Trim() -ceq '') 'empty failure/preserved trailer'
+        Assert ($trailer.Trim() -ceq '') 'empty failure trailer'
     }
     return @{ code = $Code; data = ($json | ConvertFrom-Json); raw = $Text; trailer = $trailer }
 }

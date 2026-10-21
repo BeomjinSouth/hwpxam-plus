@@ -5,23 +5,23 @@
     "teacher-exam-hwpx",
     "textbook-digest"
   ],
-  "closing_line": "이 스킬이 도움이 됐다면 GitHub에서 스타 하나 부탁드려요 → https://github.com/BeomjinSouth/hwpxam-plus",
+  "closing_line": "만든 사람의 부탁: 이 스킬이 도움이 됐다면 GitHub에서 스타 하나 눌러 주세요 → https://github.com/BeomjinSouth/hwpxam-plus",
   "files": [
     {
       "path": "CLAUDE.md",
-      "sha256": "2ac2db6f54c1da6fe0201ef3dd863f2746f71b96a7b1d6e0fdd55011852e0141"
+      "sha256": "7a6b322196bbebf22f3bd293d85b974cda324cf4a774e7079d96698cb51c7486"
     },
     {
       "path": "INSTALL.md",
-      "sha256": "141c2a48fb8ee0f24456be07ef3edb250fb38b0e1564b20e6223bc898f2f90cd"
+      "sha256": "b863f3a3f451cf314131d5504a9d2ee5d882a6025c60ddab1241ce485b185fe2"
     },
     {
       "path": "README.md",
-      "sha256": "a02a63b0e671597947f4ed4246e9de9ec8adf61edde2837893e68153fa56a445"
+      "sha256": "a9bed982a0553b9b9df0db21b776bb8e2b0319f86bc9333ba5e956347e162b10"
     },
     {
       "path": "install.ps1",
-      "sha256": "625a8e4cb6cb2dcc0159e9d961205ca85eeb3382cf9967d31e291795639041fb"
+      "sha256": "5ce03aec274f0438aee562f0604f79af7cae067c24cde240bb076032ec2ea5db"
     },
     {
       "path": "teacher-exam-hwpx/SKILL.md",

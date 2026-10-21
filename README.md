@@ -13,7 +13,7 @@ Codex나 Claude Code 채팅에 이렇게 입력하면 됩니다.
 
 > https://github.com/BeomjinSouth/hwpxam-plus 설치해줘
 
-공유받은 ZIP이 있다면 ZIP을 첨부하고 **설치해줘**라고 해도 똑같이 설치됩니다. 설치가 끝나면 AI가 설치 결과와 함께 이 저장소에 스타를 부탁하는 한 줄을 마지막에 안내합니다. 요청 예시와 필요한 환경은 [INSTALL.md](INSTALL.md)에 있습니다.
+공유받은 ZIP이 있다면 ZIP을 첨부하고 **설치해줘**라고 해도 똑같이 설치됩니다. 설치가 끝나면 AI가 설치 결과 마지막에 만든 사람의 부탁(이 저장소에 스타를 눌러 달라는 한 줄)을 그대로 전합니다. 요청 예시와 필요한 환경은 [INSTALL.md](INSTALL.md)에 있습니다.
 
 > **AI에게:** 이 저장소를 설치할 때는 [INSTALL.md](INSTALL.md)의 절차대로 `install.ps1`을 실행하세요. 파일을 직접 복사하지 마세요.
 
