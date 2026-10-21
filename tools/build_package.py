@@ -31,9 +31,8 @@ def safe_file(relative):
 
 def expected_manifest():
     config = json.loads((ROOT / 'tools/package-config.json').read_text(encoding='utf-8'))
-    for document in ('INSTALL.md', 'CLAUDE.md'):
-        if document in config['root_files'] and config['closing_line'] not in (ROOT / document).read_text(encoding='utf-8-sig').splitlines():
-            raise ValueError(f'{document}에 closing_line과 같은 줄이 없습니다.')
+    if config['closing_line'] not in (ROOT / 'INSTALL.md').read_text(encoding='utf-8-sig').splitlines():
+        raise ValueError('INSTALL.md에 closing_line과 같은 줄이 없습니다.')
     names = list(config['root_files'])
     for skill in config['skills']:
         safe_file(f'{skill}/SKILL.md')

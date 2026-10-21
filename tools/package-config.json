@@ -6,7 +6,6 @@
     "textbook-digest"
   ],
   "root_files": [
-    "CLAUDE.md",
     "INSTALL.md",
     "README.md",
     "install.ps1"
