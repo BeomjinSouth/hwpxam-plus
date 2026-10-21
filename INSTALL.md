@@ -55,7 +55,7 @@ ZIP에는 학교 양식·개인정보·교과서·기출 원문이 없습니다.
 powershell -NoProfile -ExecutionPolicy Bypass -File "받은 폴더/install.ps1"
 ```
 
-옵션을 붙이지 않고 그대로 실행합니다. 지금 쓰는 도구가 Codex이든 Claude Code이든 두 도구에 모두 설치해야 교사가 다른 도구에서도 바로 쓸 수 있습니다. `-Target`과 `-SkillsRoot`는 교사가 직접 요청했을 때만 씁니다. `CODEX_HOME` 같은 환경변수를 보고 설치 위치를 바꾸지 않습니다. 실행 정책은 해당 프로세스에만 적용됩니다. 설치 자체는 PowerShell 7에서도 실행할 수 있습니다. 한글 편집·PDF 렌더링 도구는 스킬이 지정한 Windows PowerShell로 실행합니다.
+설치 도구 옵션은 붙이지 않고 그대로 실행합니다. 지금 쓰는 도구가 Codex이든 Claude Code이든 두 도구에 모두 설치해야 교사가 다른 도구에서도 바로 쓸 수 있습니다. `-Target`과 `-SkillsRoot`는 교사가 직접 요청했을 때만 씁니다. `CODEX_HOME` 같은 환경변수를 보고 설치 위치를 바꾸지 않습니다. `-ExecutionPolicy Bypass`는 스크립트 실행을 막아 둔 Windows 기본 설정 때문에 붙이며 이번 실행에만 적용됩니다. 스크립트 실행이 이미 허용된 셸이라면 이 옵션 없이 `powershell -NoProfile -File "받은 폴더/install.ps1"`로 실행해도 결과가 같습니다. 설치 자체는 PowerShell 7에서도 실행할 수 있습니다. 한글 편집·PDF 렌더링 도구는 스킬이 지정한 Windows PowerShell로 실행합니다.
 
 AI 도구의 보안 검사나 권한 설정 때문에 설치 명령이 실행되지 않으면 우회하지 않습니다. 파일을 스킬 폴더에 직접 복사하지도 않습니다. 대신 실제 경로를 넣은 설치 명령 한 줄을 교사에게 주고 이렇게 안내합니다. "시작 메뉴에서 Windows PowerShell을 열고 아래 한 줄을 붙여 넣은 뒤 Enter를 눌러 주세요. 화면에 나온 결과를 복사해 보내 주시면 확인하겠습니다." 교사가 보낸 결과로 5번 이후를 이어 갑니다.
 
